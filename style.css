@@ -1,0 +1,540 @@
+* {
+  font-family: var(
+    --font-stack-header,
+    "Lato",
+    "HelveticaNeue",
+    "Helvetica Neue",
+    sans-serif
+  );
+}
+.blue-navbar-header{
+  font-size:larger;
+}
+
+.hoverable:hover {
+  opacity: 50%;
+}
+.blue {
+  background-color: rgb(13, 79, 154);
+  color: white;
+}
+.darkblue {
+  background-color: rgb(2, 47, 99);
+  color: white;
+}
+.darkblue a{
+  color: white;
+}
+.navdiv-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+.navdiv-content-header {
+  color: rgb(57, 211, 57);
+  font-size: x-large;
+}
+
+.navdiv-content-description button {
+  height:32px;
+  background-color: rgb(57, 211, 57);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+.navdiv-button-div {
+  text-align: start;
+}
+li {
+  padding-right: 1rem;
+}
+
+@media (min-width:990px) {
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    --bs-dropdown-link-hover-color: white;
+    --bs-dropdown-link-hover-bg:rgb(1, 122, 158);
+  }
+}
+.dropdown-menu{
+  --bs-dropdown-border-radius: none;
+}
+
+.my-cart{
+  padding-top:5px;
+}
+.nav-link{
+  color: white;
+}
+
+.nav-bar-main-dropdown-div{
+  width: 400px;
+  height: 350px;
+  align-content: stretch;
+}
+
+.white-nav-bar-shop-div{
+  text-align: center;
+  justify-content: center;
+  background-color:rgb(13, 79, 154);
+  color: white;
+  width: 100px;
+  border-radius: 10px;
+  height: 50px;
+}
+.white-nav-bar-no-colour-div{
+  width: 100px;
+  height: 50px;
+  color:rgb(13, 79, 154);
+  text-align: center;
+  font-size: larger;
+  padding-top: 12px;
+}
+
+.white-nav-bar-biotrust-div{
+  width: 100px;
+  height: 50px;
+  color:rgb(13, 79, 154);
+  text-align: center;
+  font-size: larger;
+  padding-top: 6px;;
+}
+.white-nav-bar-no-colour-div a, .white-nav-bar-biotrust-div a{
+  color:rgb(13, 79, 154);
+}
+.navbar-nav.blue-navbar-item{
+  --bs-nav-link-hover-color: rgb(140, 140, 216);
+}
+.navbar-nav.white-navbar-item{
+  --bs-nav-link-hover-color: none;
+}
+
+.dropdown-menu.shop-menu, .dropdown-menu.biotrust-menu{
+  --bs-dropdown-color: rgb(13, 79, 154);
+  --bs-dropdown-link-color:rgb(13, 79, 154);
+
+}
+.nav-bar-hidden-toggler{
+  /* color:blue; */
+  border: none;
+}
+
+.breadcrumb-item a{
+  font-size: larger;
+  text-decoration: none;
+  color: rgb(13, 79, 154);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">");
+}
+
+.search-bar{
+  border:1px solid rgb(129, 129, 129);
+  padding-right:2px;
+  border-radius: 6px;
+  color: #333333;
+}
+
+.magnifying-glass{
+  padding-left: 5px;
+  padding-right: 5px;
+  width:25px;
+}
+
+.hidden-magnifying-glass{
+  color: blue;
+  width: 25px;
+}
+.magnifying-glass:hover{
+  cursor: pointer;
+}
+.search-bar input{
+  border: none;
+}
+
+.blue-border-navbar{
+  border-bottom: 5px solid rgb(13, 79, 154);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!! Nav bar designs above this line !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.item-header h2,
+.package h2 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(13, 79, 154);
+}
+.package p {
+  text-align: center;
+}
+.package-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.package-button-left,
+.package-button-right {
+  width: 50%;
+  margin: 3%;
+}
+.package-button-left button,
+.package-button-right button {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+}
+.package-button-left button {
+  border: 3px solid rgb(13, 79, 154);
+  font-weight: bold;
+  background-color: white;
+  color: rgb(13, 79, 154);
+}
+.package-button-right button {
+  border: 3px solid rgb(13, 79, 154);
+  font-weight: bold;
+  background-color: rgb(13, 79, 154);
+  color: white;
+  font-size: 1em;
+  min-width: 130px;
+}
+.item-ratings {
+  text-align: center;
+  color: green;
+}
+
+.main-image,
+.mobile-video-link {
+  margin: auto;
+  text-align: center;
+}
+
+.invert-blue {
+  font-size: large;
+  color: rgb(13, 79, 154);
+  background-color: white;
+}
+
+.card-button {
+  width: 100%;
+  margin: 3%;
+  text-align: center;
+}
+.card-button button {
+  justify-self: center;
+  background-color: rgb(57, 211, 57);
+  color: white;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+}
+
+.card{
+  border: solid rgb(13, 79, 154);
+  --bs-card-border-radius:none;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.premium-card{
+    border: solid rgb(57, 211, 57) 3px;
+}
+
+@media (min-width:1201px) {
+    .premium-card {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        border: solid rgb(13, 79, 154) 3px;
+      }
+      .premium-card-tag {
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(13, 79, 154);
+        color: white;
+        margin-top: -40px;
+        width: 16.1vw;
+        position: absolute;
+      }
+}
+.most-popular i{
+    color: rgb(13, 79, 154);
+}
+
+.image-slider{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    /* overflow: scroll; */
+}
+.slider-image:hover{
+    opacity: 50%;
+}
+
+.review-fixed{
+    position: fixed;
+    top: 50%;
+    left: -25px;
+    text-align: center;
+    background-color: rgb(13, 79, 154);
+    color:white;
+    height: 50px;
+    rotate: 270deg;
+    width:100px;
+    z-index: 1;
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.review-fixed:hover{
+    cursor: pointer;
+}
+
+.chat-fixed{
+  position: fixed;
+  top: 90%;
+  right: 5px;
+  text-align: center;
+  background-color: rgb(27, 110, 204);
+  color:white;
+  height: 40px;
+  width:120px;
+  z-index: 1;
+  justify-content: center;
+  justify-self: center;
+  margin: auto;
+  border-radius: 50px;
+  padding-top: 10px;
+}
+.chat-fixed:hover{
+  cursor: pointer;
+}
+
+.popup{
+    position: absolute;
+    text-align: center;
+    right: 1.8%;
+    margin-top: -1%;
+    width: 20px;
+    background-color: rgb(57, 211, 57);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+.side-carousal h2{
+  font-weight: bolder;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(13, 79, 154);
+}
+.carousal-image:hover{
+  opacity: 50%;
+}
+.carousel-control-prev, .carousel-control-next{
+  opacity:50%
+}
+
+.card-info .card-name {
+  color: rgb(13, 79, 154);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.card-info .card-duration {
+  color: rgb(13, 79, 154);
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: bolder;
+}
+
+.card-info .card-current-price {
+  text-align: center;
+  color: green;
+  font-size: 0.5em;
+  font-weight: bolder;
+  font-weight: bolder;
+}
+.card-info .card-discount {
+  text-align: center;
+  color: red;
+  font-size: 0.5em;
+  font-weight: bolder;
+}
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px){
+  .card-info .card-name {
+    font-size: 1.5em;
+  }
+  .card-info .card-duration {
+    font-size: 0.5em;
+  }
+  .card-info .card-current-price {
+    font-size: 0.5em;
+  }
+  .card-info .card-discount {
+    font-size: 0.5em;
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .card-info .card-name {
+    font-size: 1.5em;
+  }
+  .card-info .card-duration {
+    font-size: 1em;
+  }
+  .card-info .card-current-price {
+    font-size: 1em;
+  }
+  .card-info .card-discount {
+    font-size: 1em;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .card-info .card-name {
+    font-size: 1.5em;
+  }
+  .card-info .card-duration {
+    font-size: 1em;
+  }
+  .card-info .card-current-price {
+    font-size: 1.5em;
+  }
+  .card-info .card-discount {
+    font-size: 1em;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .card-info .card-name {
+    font-size: 2em;
+  }
+  .card-info .card-duration {
+    font-size: 1.5em;
+  }
+  .card-info .card-current-price {
+    font-size: 2em;
+  }
+  .card-info .card-discount {
+    font-size: 1.5em;
+  }  
+}
+.main-pane, .right-pane{
+  height:fit-content;
+}
+
+.product-benefit-details h3{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+}
+
+.product-benefit-details ul li{
+  font-size: medium;
+  margin-bottom: 3px;
+}
+.product-benefits-bold-text p{
+  font-weight: bold;
+  font-size: medium;
+  margin-top: 5px;
+}
+
+
+.blue-box-parent{
+  background-color: rgb(10, 61, 119);
+}
+.blue-box{
+  text-align: center;
+  min-height: 130px;
+}
+.blue-box .blue-box-image{
+  margin-top: 20px;
+}
+.blue-box .blue-box-text{
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .blue-box .blue-box-image {
+    margin-top: -20px;
+  }
+  .blue-box{
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+  }
+}
+.blue-box .blue-box-image img{
+  width: 50px;
+  height: 50px;
+}
+
+.featured-review{
+  padding: 30px;
+  background-color: rgb(13, 79, 154);
+}
+
+.featured-review-heading a{
+  text-decoration: none;
+  font-size: large;
+  color: rgb(57, 211, 57);
+}
+.featured-review-heading a:hover{
+  opacity: 50%;
+}
+.featured-review-heading{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+.featured-review-heading h1{
+  color: white;
+}
+
+.featured-review-data{
+  text-align: center;
+  color: white;
+}
+
+.featured-stars-image{
+  text-align: center;
+}
+.featured-stars-image image{
+  background-size: cover;
+}
+
+.featured-review-data .featured-review-data-comment span{
+  color: rgb(57, 211, 57);
+}
+
+/* Medium devices (and up) */
+@media (min-width: 768px) { 
+  .featured-review-heading {
+    border-right: 10px solid rgb(57, 211, 57);
+  }
+}
+/*Smaller than Medium*/
+@media (max-width: 767px) { 
+  .featured-review-heading {
+    border-bottom: 10px solid rgb(57, 211, 57);
+  }
+}
+
+.center-content-div{
+  border-bottom: solid 5px rgb(13, 79, 154);
+}
+
+.featured-green-stars{
+  height: 45px;
+}
